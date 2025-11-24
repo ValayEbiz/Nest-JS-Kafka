@@ -18,8 +18,9 @@ async function bootstrap() {
 
   await app.listen();
   Logger.log(
-    `🚀 Application is running as consumer to listern kafka:9092`
+    `🚀 Application is running as consumer to listen kafka:9092`
   );
 }
 
 bootstrap();
+11
